@@ -5,16 +5,14 @@
         "french":  ["le ", "la ", "l'", "les ", "un ", "une ", "des "],
         "italian": ["il ", "gli ", "gl'", "lo ", "la ", "le ", "l'", "un ", "una ", "un'"],
         "spanish": ["el ", "la ", "los ", "las ", "un ", "una ", "unos ", "unas "],
-        "dutch":   ["de ", "het ", "een ", "eene "],
-        "portuguese": ["o ", "os ", "as "],
-        "hungarian":  ["az ", "egy "]
+        "dutch":   ["de ", "het ", "een ", "eene "]
     },
     "strict": {
         "(Italy)": ["uno ", "i "],
-        "(Greece)": ["o ", "oi ", "i ", "to "],
-        "(Hungary)": ["a "],
-        "(Portugal)": ["a "],
-        "(Brazil)": ["a "]
+        "(Greece)": ["o ", "oi ", "i ", "to ", "ta ", "tou ", "tis ", "ton ", "ti ", "tin ", "tous "],
+        "(Hungary)": ["a ", "az ", "egy "],
+        "(Portugal)": ["o ", "os ", "as ", "a "],
+        "(Brazil)": ["o ", "os ", "as ", "a "]
     },
     "exclude": [
         "a la ",
@@ -31,11 +29,8 @@
         "le mans ",
         "l'vinoe ",
         "l'oreal ",
-        "as - angelic serenade ",
         "die gekirin ",
         "des blood ",
-        "uno (",
-        "uno -",
         "uno cd",
         "uno dx"
     ]
