@@ -2,10 +2,9 @@
 # Workflow to validate Redump bot .json
 # Written by Edness   v1.0   2025-10-24
 
-import json, os
+import json
 
 def validate_json(path):
-    path = os.path.abspath(path)
     print("Validating", path)
 
     # validate json formatting
