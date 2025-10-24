@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Workflow to validate Redump bot .json
-# Written by Edness   v1.0   2025-10-24
+# Written by Edness   v1.0.1   2025-10-24
 
 import json
 
@@ -16,15 +16,15 @@ def validate_json(path):
     for k in articles["articles"]:
         assert type(articles["articles"][k]) is list
         for v in articles["articles"][k]:
-            assert type(v) is str
+            assert type(v) is str and v.isascii()
     assert type(articles["strict"]) is dict
     for k in articles["strict"]:
         assert type(articles["strict"][k]) is list
         for v in articles["strict"][k]:
-            assert type(v) is str
+            assert type(v) is str and v.isascii()
     assert type(articles["exclude"]) is list
     for v in articles["exclude"]:
-        assert type(v) is str
+        assert type(v) is str and v.isascii()
 
     print("Articles list is valid!")
 
