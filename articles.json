@@ -9,7 +9,10 @@
     },
     "strict": {
         "(Italy)": ["uno ", "i "],
-        "(Greece)": ["o ", "oi ", "i ", "to ", "ta ", "tou ", "tis ", "ton ", "ti ", "tin ", "tous "],
+        "(Greece)": [
+            "o ", "oi ", "i ", "to ", "ta ", "tou ", "tis ", "ton ", "ti ", "tin ", "tous ",
+            "enas ", "mia ", "ena ", "enos ", "mias ", "enan "
+        ],
         "(Hungary)": ["a ", "az ", "egy "],
         "(Portugal)": ["o ", "os ", "as ", "a "],
         "(Brazil)": ["o ", "os ", "as ", "a "]
