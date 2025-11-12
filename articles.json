@@ -15,7 +15,11 @@
         ],
         "(Hungary)": ["a ", "az ", "egy "],
         "(Portugal)": ["o ", "os ", "as ", "a "],
-        "(Brazil)": ["o ", "os ", "as ", "a "]
+        "(Brazil)": ["o ", "os ", "as ", "a "],
+        "(Denmark)": ["en ", "et ", "den ", "det ", "de "],
+        "(Norway)": ["en ", "ei ", "et ", "den ", "det ", "de "],
+        "(Sweden)": ["en ", "ett ", "den ", "det ", "de "],
+        "(Turkey)": ["bir "]
     },
     "exclude": [
         "a la ",
