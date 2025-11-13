@@ -2,7 +2,7 @@
     "articles": {
         "english": ["the ", "an "],
         "german":  ["ein ", "eine ", "der ", "die ", "das "],
-        "french":  ["le ", "la ", "l'", "les ", "un ", "une ", "des "],
+        "french":  ["le ", "la ", "l'", "les ", "un ", "une "],
         "italian": ["il ", "gli ", "gl'", "lo ", "la ", "le ", "l'", "un ", "una ", "un'"],
         "spanish": ["el ", "la ", "los ", "las ", "un ", "una ", "unos ", "unas "],
         "dutch":   ["de ", "het ", "een ", "eene "]
