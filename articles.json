@@ -19,6 +19,7 @@
         "(Denmark)": ["en ", "et ", "den ", "det ", "de "],
         "(Norway)": ["en ", "ei ", "et ", "den ", "det ", "de "],
         "(Sweden)": ["en ", "ett ", "den ", "det ", "de "],
+        "(Scandinavia)": ["de ", "den ", "det ", "ei ", "en ", "et ", "ett "],
         "(Turkey)": ["bir "]
     },
     "exclude": [
